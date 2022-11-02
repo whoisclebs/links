@@ -22,7 +22,7 @@ export default function Home() {
             <a href="https://www.polywork.com/clebsonf">Confira meu polywork</a>
           </li>
         </ul>
-        <div className="flex pt-4 space-x-6 sm:justify-center">
+        <div className="flex pt-4 space-x-6 justify-center">
           <a href="https://github.com/clebsonf" className="text-gray-500 hover:text-gray-900">
             <FaGithub size={25}/>
           </a>
