@@ -1,5 +1,5 @@
 import { FaDev, FaGithub, FaInstagram, FaLinkedin, FaMedium, FaTwitter, FaYoutube } from "react-icons/fa";
-
+import Link from 'next/link'
 export default function Home() {
   return (
   <section className="min-h-screen flex flex-col justify-center items-center p-16">
@@ -13,13 +13,31 @@ export default function Home() {
         </p>
         <ul className="underline ">
           <li className="pt-2 text-sm">
-            <a href="https://clebson.cc">Acesse meu site</a>
+              <Link href="https://www.amazon.com/dp/B0C39PLQMQ?ref_=pe_3052080_276849420">
+                <button type="button" className="relative px-6 py-2 group w-full">
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full bg-white border-2 border-black " />
+                  <span className="relative text-black ">Compre meu livro em pre-venda(versão em inglês)</span>
+                </button>
+              </Link>
           </li>
           <li className="pt-2 text-sm">
-            <a href="https://octobear.org">Conheça octobear hub</a>
+              <Link href="https://www.buymeacoffee.com/clebsonf">
+                <button type="button" className="relative px-6 py-2 group w-full">
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full bg-white border-2 border-black " />
+                  <span className="relative text-black ">Buy me a ☕</span>
+                </button>
+              </Link>
           </li>
           <li className="pt-2 text-sm">
-            <a href="https://www.polywork.com/clebsonf">Confira meu polywork</a>
+              <Link href="https://clebson.cc">
+                <button type="button" className="relative px-6 py-2 group w-full">
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full bg-white border-2 border-black " />
+                  <span className="relative text-black ">Acesse meu site</span>
+                </button>
+              </Link>
           </li>
         </ul>
         <div className="flex pt-4 space-x-6 justify-center">
@@ -32,7 +50,7 @@ export default function Home() {
           <a href="https://twitter.com/cl3bsonf" className="text-gray-500 hover:text-gray-900">
             <FaTwitter size={25}/>
           </a>
-          <a href="https://clebs.dev/" className="text-gray-500 hover:text-gray-900">
+          <a href="https://medium.com/@clebson" className="text-gray-500 hover:text-gray-900">
             <FaMedium size={25}/>
           </a>
           <a href="https://www.instagram.com/cl3bsonf/" className="text-gray-500 hover:text-gray-900">
